@@ -27,8 +27,9 @@ function App() {
     <div className="App">
       <h1>The goal is to select as many images in a row, without selecting the same image twice.</h1>
       <Scoreboard score={score} />
-      {gameOver && <GameOver score={score} resetGame={resetGame} />}
-      <Cards onClick={handleClick}/>
+      { gameOver ? 
+        <GameOver score={score} resetGame={resetGame} /> : 
+        <Cards onClick={handleClick}/> }
     </div>
   );
 }

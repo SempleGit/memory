@@ -19,6 +19,8 @@ html {
 .card {
   background: gray;
   border: 1px solid black;
+  border-radius: 5px;
+  transition: 1s;
 }
 
 img {
@@ -55,7 +57,7 @@ button {
   font-size: 2rem;
   position: absolute;
   left: calc(50% - 10rem);
-  top: 20%;
+  top: 30%;
   width: 20rem;
 }
 
