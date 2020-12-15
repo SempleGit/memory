@@ -13,16 +13,16 @@ import ten from './images/cats/ten.jpg';
 
 const Cards = (props) => {
   const [cards] = useState([
-    {img: one, alt: 'cat image', cardNumber: 1},
-    {img: two, alt: 'cat image', cardNumber: 2},
-    {img: three, alt: 'cat image', cardNumber: 3},
-    {img: four, alt: 'cat image', cardNumber: 4},
-    {img: five, alt: 'cat image', cardNumber: 5},
-    {img: six, alt: 'cat image', cardNumber: 6},
-    {img: seven, alt: 'cat image', cardNumber: 7},
-    {img: eight, alt: 'cat image', cardNumber: 8},
-    {img: nine, alt: 'cat image', cardNumber: 9},
-    {img: ten, alt: 'cat image', cardNumber: 10},
+    {img: one, alt: 'cat with mask on', cardNumber: 1},
+    {img: two, alt: 'cat with a white chest looking at the camera', cardNumber: 2},
+    {img: three, alt: 'gray tabby cat', cardNumber: 3},
+    {img: four, alt: 'gray kitten looking sweet', cardNumber: 4},
+    {img: five, alt: 'blue-eyed baby kitty', cardNumber: 5},
+    {img: six, alt: 'long-haired kitty in the snow', cardNumber: 6},
+    {img: seven, alt: 'kitten sleeping on its back', cardNumber: 7},
+    {img: eight, alt: 'majestic cat laying on a bed', cardNumber: 8},
+    {img: nine, alt: 'orange tabby basking in the sun', cardNumber: 9},
+    {img: ten, alt: 'kitten pawing toward the screen', cardNumber: 10},
   ]);
 
   // const randomSort = () => {
